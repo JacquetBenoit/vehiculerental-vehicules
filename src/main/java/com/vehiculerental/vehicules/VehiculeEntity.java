@@ -9,23 +9,15 @@ public class VehiculeEntity implements Vehicule {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-
     private String registrationNumber;
-
     private String brand;
-
     private String model;
-
     private String color;
-
     private int reservationPrice;
-
     private int kilometerPrice;
-
     private int fiscalHorsePower;
 
     public VehiculeEntity() {
-
     }
 
 
